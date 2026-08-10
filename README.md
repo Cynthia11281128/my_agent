@@ -1,5 +1,7 @@
 # My Agent Skills
 
+[中文](README-CN.md)
+
 Personal agent skills for reusable workflows.
 
 ## Public Skills
