@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sync Bilingual Markdown"
+  short_description: "Align paired English and Chinese Markdown"
+  default_prompt: "Use $sync-bilingual-md to align the English and Chinese Markdown files in this folder."

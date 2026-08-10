@@ -1,0 +1,4 @@
+interface:
+  display_name: "Push Safety Check"
+  short_description: "Scan repos for private data before push"
+  default_prompt: "Use $push-safety-check to scan this repo for private information before pushing."

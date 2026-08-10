@@ -1,0 +1,4 @@
+interface:
+  display_name: "Connect GitHub Account"
+  short_description: "Set up GitHub SSH authentication"
+  default_prompt: "Use $connect-github-account to connect this machine to my GitHub account with SSH."

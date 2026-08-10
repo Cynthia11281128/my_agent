@@ -20,6 +20,7 @@ Connect the current local folder to a GitHub repository while preserving local f
 - Do not push code, create a repository, change visibility, or force-push unless the user explicitly requests that action.
 - Prefer SSH or HTTPS remote format based on the URL the user provided. Do not silently switch protocols unless needed and explained.
 - Respect sandbox, network, and credential limits. If GitHub access is blocked, report the exact blocker and provide the next required input.
+- For every pause or final reply after running commands or waiting for user action, read and follow `../shared/command-response-template.md`.
 
 ## Workflow
 
@@ -120,7 +121,9 @@ When the GitHub repository is not empty:
 
 ## Final Report
 
-After connecting, report:
+After connecting or when pausing for user action, follow `../shared/command-response-template.md`.
+
+For this skill, include these task-specific details under `What I Did` when available:
 
 - Local folder path.
 - Git repository root.
@@ -128,6 +131,11 @@ After connecting, report:
 - `origin` URL.
 - Whether branch upstream is set.
 - Whether anything was pushed.
-- Any remaining manual step, credential issue, or confirmation needed.
+
+For this skill, include these task-specific details under `What You Need To Do` when applicable:
+
+- Any required target repository URL or `owner/repo`.
+- Any confirmation needed before replacing remotes, pushing, creating repositories, or reconciling histories.
+- Any GitHub website action, credential issue, manual step, or blocker.
 
 Keep the report concise and include exact commands only when the user needs to repeat them.
