@@ -1,0 +1,4 @@
+interface:
+  display_name: "Summarize Workflow"
+  short_description: "Turn prior task work into reproducible steps"
+  default_prompt: "Use $summarize-workflow to write a generalized workflow from this conversation to the specified Markdown path."

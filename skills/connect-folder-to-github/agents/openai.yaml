@@ -1,0 +1,4 @@
+interface:
+  display_name: "Connect Folder To GitHub"
+  short_description: "Link a local folder to a GitHub repo"
+  default_prompt: "Use $connect-folder-to-github to connect this local folder to a GitHub repository."
