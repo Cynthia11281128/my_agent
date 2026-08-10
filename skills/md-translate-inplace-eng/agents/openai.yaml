@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown In-Place English Translation"
+  short_description: "Edit Markdown directly into English."
+  default_prompt: "Use $md-translate-inplace-eng to translate Chinese Markdown into English in place and lightly correct existing English grammar."

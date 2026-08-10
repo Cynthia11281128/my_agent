@@ -1,4 +1,0 @@
-interface:
-  display_name: "Markdown English Translation"
-  short_description: "Translate Chinese Markdown and lightly fix English."
-  default_prompt: "Use $md-translation-eng to translate Chinese Markdown into English and lightly correct existing English grammar."

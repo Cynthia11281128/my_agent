@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown Chinese Pair Translation"
+  short_description: "Create paired Chinese Markdown files."
+  default_prompt: "Use $md-translate-pair-cn to translate an English Markdown file into a sibling -CN.md file."
