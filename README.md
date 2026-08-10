@@ -10,6 +10,7 @@ Personal agent skills for reusable workflows.
 | --- | --- |
 | `connect-folder-to-github` | Connect a local folder to a remote GitHub repository. |
 | `connect-github-account` | Set up and verify GitHub SSH access for the local machine. |
+| `md-translation-eng` | Translate Chinese Markdown into English and lightly correct existing English grammar. |
 | `push-safety-check` | Scan repos for private information before pushing. |
 | `setup-collaborator` | Clarify and handle non-code setup and configuration tasks. |
 | `summarize-workflow` | Write paired English and Chinese reusable workflow summaries. |

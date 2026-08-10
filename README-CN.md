@@ -8,6 +8,7 @@
 | --- | --- |
 | `connect-folder-to-github` | 将本地文件夹连接到远程 GitHub 仓库。 |
 | `connect-github-account` | 为本机设置并验证 GitHub SSH 访问。 |
+| `md-translation-eng` | 将 Markdown 中的中文翻译成英文，并轻量修正已有英文语法。 |
 | `push-safety-check` | push 前扫描 repo 中不应推送的私密信息。 |
 | `setup-collaborator` | 澄清并协作处理非代码类设置和配置任务。 |
 | `summarize-workflow` | 生成中英文成对的可复用工作流总结。 |
