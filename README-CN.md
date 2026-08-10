@@ -9,6 +9,7 @@
 | `connect-folder-to-github` | 将本地文件夹连接到远程 GitHub 仓库。 |
 | `connect-github-account` | 为本机设置并验证 GitHub SSH 访问。 |
 | `push-safety-check` | push 前扫描 repo 中不应推送的私密信息。 |
+| `setup-collaborator` | 澄清并协作处理非代码类设置和配置任务。 |
 | `summarize-workflow` | 生成中英文成对的可复用工作流总结。 |
 | `sync-bilingual-md` | 基于显式变更标记同步中英文 Markdown 文件。 |
 

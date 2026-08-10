@@ -11,6 +11,7 @@ Connect the user's local machine to their GitHub account with SSH. Execute safe 
 
 ## Core Rules
 
+- Read and apply `../shared/setup-collaboration-workflow.md` before running the GitHub-specific steps below.
 - Prefer agent-assisted setup: run local checks and safe setup commands when they do not expose secrets or overwrite user state.
 - Never print, copy, upload, summarize, or inspect private key contents.
 - Only show public key contents from files ending in `.pub`.

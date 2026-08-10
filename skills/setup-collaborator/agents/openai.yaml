@@ -1,0 +1,4 @@
+interface:
+  display_name: "Setup Collaborator"
+  short_description: "Clarify and handle setup/config tasks"
+  default_prompt: "Use $setup-collaborator to clarify this setup task, do what Codex can safely do, and tell me what I need to do manually."

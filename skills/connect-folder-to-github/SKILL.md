@@ -11,6 +11,7 @@ Connect the current local folder to a GitHub repository while preserving local f
 
 ## Core Rules
 
+- Read and apply `../shared/setup-collaboration-workflow.md` before running the repository-specific steps below.
 - Treat the current working directory as the folder to connect unless the user gives another path.
 - Protect local files and existing Git history. Do not reset, clean, overwrite, or discard changes.
 - Ask for the target GitHub repository URL or `owner/repo` when it is not provided or cannot be inferred safely.
