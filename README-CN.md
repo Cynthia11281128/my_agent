@@ -13,7 +13,8 @@
 | `push-safety-check` | push 前扫描 repo 中不应推送的私密信息。 |
 | `setup-collaborator` | 澄清并协作处理非代码类设置和配置任务。 |
 | `summarize-workflow` | 生成中英文成对的可复用工作流总结。 |
-| `sync-bilingual-md` | 基于显式变更标记同步中英文 Markdown 文件。 |
+| `md-sync-bilingual` | 基于显式变更标记同步中英文 Markdown 文件。 |
+| `md-edit` | 编辑英文 Markdown，并标记变更以同步中文配对文件。 |
 
 ## 私有 Skills
 

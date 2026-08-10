@@ -1,0 +1,4 @@
+interface:
+  display_name: "Markdown Edit"
+  short_description: "Edit English Markdown and sync Chinese"
+  default_prompt: "Use $md-edit to edit this English Markdown file and prepare its Chinese pair for sync."

@@ -1,5 +1,5 @@
 ---
-name: sync-bilingual-md
+name: md-sync-bilingual
 description: Align paired English and Chinese Markdown files using explicit change markers instead of semantic comparison. Use when the user asks to sync bilingual Markdown, align English and Chinese docs, process marked additions or deletions, reconcile Markdown files where Chinese files usually use a -CN suffix, or update both sides after deciding how marked changes should be applied.
 ---
 

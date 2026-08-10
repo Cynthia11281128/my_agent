@@ -15,7 +15,8 @@ Personal agent skills for reusable workflows.
 | `push-safety-check` | Scan repos for private information before pushing. |
 | `setup-collaborator` | Clarify and handle non-code setup and configuration tasks. |
 | `summarize-workflow` | Write paired English and Chinese reusable workflow summaries. |
-| `sync-bilingual-md` | Align paired English and Chinese Markdown files using explicit change markers. |
+| `md-sync-bilingual` | Align paired English and Chinese Markdown files using explicit change markers. |
+| `md-edit` | Edit English Markdown and mark changes for Chinese pair syncing. |
 
 ## Private Skills
 
