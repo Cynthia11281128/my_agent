@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Skill Creator"
+  short_description: "Create project-local Codex skills"
+  default_prompt: "Use $local-skill-creator to create a Codex skill that is available only in this project folder."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Local Skill Setup"
+  short_description: "Set up project-local Codex skills"
+  default_prompt: "Use $local-skill-setup to set up this repo so Codex uses local skills only in this folder."

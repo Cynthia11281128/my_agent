@@ -10,6 +10,8 @@ Personal agent skills for reusable workflows.
 | --- | --- |
 | `connect-folder-to-github` | Connect a local folder to a remote GitHub repository. |
 | `connect-github-account` | Set up and verify GitHub SSH access for the local machine. |
+| `local-skill-creator` | Create project-local Codex skills using the upstream Skill Creator workflow. |
+| `local-skill-setup` | Set up project-local Codex skills and per-folder skill scope. |
 | `md-translate-inplace-eng` | Translate Chinese Markdown into English in place and lightly correct existing English grammar. |
 | `md-translate-pair-cn` | Translate English Markdown into a sibling Chinese `-CN.md` file. |
 | `push-safety-check` | Scan repos for private information before pushing. |

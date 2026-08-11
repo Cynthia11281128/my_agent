@@ -8,6 +8,8 @@
 | --- | --- |
 | `connect-folder-to-github` | 将本地文件夹连接到远程 GitHub 仓库。 |
 | `connect-github-account` | 为本机设置并验证 GitHub SSH 访问。 |
+| `local-skill-creator` | 使用 upstream Skill Creator 工作流创建项目本地 Codex skills。 |
+| `local-skill-setup` | 设置项目本地 Codex skills 和按文件夹生效的 skill 范围。 |
 | `md-translate-inplace-eng` | 在原 Markdown 文件内将中文翻译成英文，并轻量修正已有英文语法。 |
 | `md-translate-pair-cn` | 将英文 Markdown 翻译成同目录下的中文 `-CN.md` 文件。 |
 | `push-safety-check` | push 前扫描 repo 中不应推送的私密信息。 |
