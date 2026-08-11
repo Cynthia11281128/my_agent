@@ -1,0 +1,11 @@
+# Copy this file to server_transfer_config.yaml and fill in your servers.
+# Keep server_transfer_config.yaml private and run:
+# chmod 600 server_transfer_config.yaml
+servers:
+  - name: example-server
+    host: example.com
+    port: 22
+    username: your_username
+    password: ""
+    remote_base_dir: /path/on/server
+    local_base_dir: /path/on/current/laptop

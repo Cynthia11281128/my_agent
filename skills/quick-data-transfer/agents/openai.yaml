@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quick Data Transfer"
+  short_description: "Download configured server files"
+  default_prompt: "Use $quick-data-transfer to download a file or folder from a configured server."

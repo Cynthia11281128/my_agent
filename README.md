@@ -19,6 +19,7 @@ Personal agent skills for reusable workflows.
 | `summarize-workflow` | Write paired English and Chinese reusable workflow summaries. |
 | `md-sync-bilingual` | Align paired English and Chinese Markdown files using explicit change markers. |
 | `md-edit` | Edit English Markdown and mark changes for Chinese pair syncing. |
+| `quick-data-transfer` | Download files or folders from configured servers. |
 
 ## Private Skills
 

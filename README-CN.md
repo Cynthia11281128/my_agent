@@ -17,6 +17,7 @@
 | `summarize-workflow` | 生成中英文成对的可复用工作流总结。 |
 | `md-sync-bilingual` | 基于显式变更标记同步中英文 Markdown 文件。 |
 | `md-edit` | 编辑英文 Markdown，并标记变更以同步中文配对文件。 |
+| `quick-data-transfer` | 从已配置服务器下载文件或文件夹。 |
 
 ## 私有 Skills
 
