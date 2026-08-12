@@ -1,0 +1,20 @@
+# Copy this file to .codex-home/vps-data-download.yaml and fill in your routes.
+# Keep .codex-home/vps-data-download.yaml private and run:
+# chmod 600 .codex-home/vps-data-download.yaml
+routes:
+  - name: example-route
+    preflight: true
+    transfer_strategy: auto
+    server:
+      host: server.example.com
+      port: 22
+      username: server_username
+      password: ""
+      remote_base_dir: /path/on/source/server
+    vps:
+      host: vps.example.com
+      port: 22
+      username: vps_username
+      password: ""
+      relay_base_dir: /path/on/vps/relay
+    local_base_dir: /path/on/current/laptop

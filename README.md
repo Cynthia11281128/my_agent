@@ -20,6 +20,7 @@ Personal agent skills for reusable workflows.
 | `md-sync-bilingual` | Align paired English and Chinese Markdown files using explicit change markers. |
 | `md-edit` | Edit English Markdown and mark changes for Chinese pair syncing. |
 | `quick-data-transfer` | Download files or folders from configured servers. |
+| `vps-data-download` | Transfer server files through a VPS relay to local. |
 
 ## Private Skills
 

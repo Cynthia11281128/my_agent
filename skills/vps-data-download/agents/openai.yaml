@@ -1,0 +1,4 @@
+interface:
+  display_name: "VPS Data Download"
+  short_description: "Download data through a VPS relay"
+  default_prompt: "Use $vps-data-download to transfer a file or folder from a server through a VPS relay to local."
