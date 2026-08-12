@@ -1,0 +1,4 @@
+interface:
+  display_name: "Repo Environment Setup"
+  short_description: "Set up repos with external data links"
+  default_prompt: "Use $repo-env-setup to configure this repo environment with external large files, symlinks, and setup.md notes."

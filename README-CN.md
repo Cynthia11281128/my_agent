@@ -18,6 +18,7 @@
 | `md-sync-bilingual` | 基于显式变更标记同步中英文 Markdown 文件。 |
 | `md-edit` | 编辑英文 Markdown，并标记变更以同步中文配对文件。 |
 | `quick-data-transfer` | 从已配置服务器下载文件或文件夹。 |
+| `repo-env-setup` | 配置 repo 环境，将大文件外置、保持镜像路径、创建 symlink，并记录 setup notes。 |
 | `vps-data-download` | 通过 VPS 中继将服务器文件传到本地。 |
 
 ## 私有 Skills
