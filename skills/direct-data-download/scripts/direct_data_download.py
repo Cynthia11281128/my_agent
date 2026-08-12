@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-"""Download an exact file or folder from a configured server with rsync."""
+"""Download an exact file or folder directly from a configured server with rsync."""
 
 from __future__ import annotations
 
 import argparse
 import getpass
 import os
+import shlex
 import shutil
 import stat
 import subprocess
@@ -21,8 +22,8 @@ except ImportError:  # pragma: no cover - exercised only on missing dependency
 
 SKILL_DIR = Path(__file__).resolve().parents[1]
 ASSETS_DIR = SKILL_DIR / "assets"
-DEFAULT_CONFIG_PATH = Path.cwd() / ".codex-home" / "quick-data-transfer.yaml"
-TEMPLATE_CONFIG_PATH = ASSETS_DIR / "server_transfer_config.template.yaml"
+DEFAULT_CONFIG_PATH = Path.cwd() / ".codex-home" / "direct-data-download.yaml"
+TEMPLATE_CONFIG_PATH = ASSETS_DIR / "direct_data_download_config.template.yaml"
 
 
 def parse_args() -> argparse.Namespace:
@@ -211,8 +212,7 @@ def ssh_prefix(password: str) -> list[str]:
 
 def run_checked(command: list[str], dry_run: bool = False, password: str = "") -> None:
     """Run a command after printing it."""
-    printable = " ".join(command)
-    print(printable)
+    print(shlex.join(command))
     if dry_run:
         return
     env = os.environ.copy()
@@ -242,7 +242,7 @@ def rsync_remote_target(server: dict[str, Any], password: str, remote_target: st
     local_base_dir.mkdir(parents=True, exist_ok=True)
     ssh_command = f"ssh -p {port}"
     remote_arg = f"{username}@{host}:{shlex_quote(remote_target)}"
-    command = ssh_prefix(password) + ["rsync", "-avh", "--progress", "-e", ssh_command, remote_arg, str(local_base_dir)]
+    command = ssh_prefix(password) + ["rsync", "-avh", "--progress", "--partial", "--append-verify", "-e", ssh_command, remote_arg, str(local_base_dir)]
     if dry_run:
         command.insert(len(ssh_prefix(password)) + 2, "--dry-run")
     print("Transferring remote path:")

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Direct Data Download"
+  short_description: "Download configured server files"
+  default_prompt: "Use $direct-data-download to download a file or folder directly from a configured server."
