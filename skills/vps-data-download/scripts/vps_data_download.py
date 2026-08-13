@@ -931,10 +931,11 @@ def main() -> int:
     verify_server_path_exists(server, server_password, paths.server_target, args.dry_run)
     if selected_strategy.startswith("rsync"):
         compress = selected_strategy == "rsync-compress"
+        cleanup_vps_copy = args.cleanup_vps_copy or parse_bool_config_value(route.get("cleanup_vps_copy"), False)
         transfer_server_to_vps(server, vps, server_password, paths.server_target, paths.vps_destination_dir, compress, args.dry_run)
         verify_vps_path_exists(vps, vps_password, paths.vps_target, args.dry_run)
         rsync_vps_target(vps, vps_password, paths.vps_target, paths.local_destination_dir, compress, args.dry_run)
-        if args.cleanup_vps_copy:
+        if cleanup_vps_copy:
             cleanup_vps_target(vps, vps_password, paths.vps_target, args.dry_run, args.yes)
         return 0
     transfer_archive_server_to_vps(
