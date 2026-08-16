@@ -2,7 +2,7 @@
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-TARGET="${HOME}/.agents/skills"
+TARGET="${CODEX_HOME:-${HOME}/.codex}/skills"
 
 if ! command -v codex >/dev/null 2>&1; then
   echo "Warning: Codex CLI was not found in PATH. Skills will be linked, but Codex may not be installed on this machine."

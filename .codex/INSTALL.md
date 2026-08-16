@@ -4,9 +4,9 @@
 
 ```bash
 git clone <your-repo-url> ~/.codex/my_agent
-mkdir -p ~/.agents/skills
+mkdir -p ~/.codex/skills
 for skill in ~/.codex/my_agent/skills/*/; do
-  ln -sf "$skill" ~/.agents/skills/$(basename "$skill")
+  ln -sf "$skill" ~/.codex/skills/$(basename "$skill")
 done
 ```
 
@@ -33,7 +33,7 @@ If installed from this local checkout, symlinks already point at the latest file
 ## Uninstall
 
 ```bash
-for skill in ~/.agents/skills/*; do
+for skill in ~/.codex/skills/*; do
   case "$(readlink "$skill")" in
     *my_agent*) rm "$skill" ;;
   esac
