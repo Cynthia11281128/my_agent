@@ -66,7 +66,7 @@ Set `transfer_strategy: auto` on a route to inspect the real target shape and ch
 
 Set `preflight: true` on a route to check all SSH channels, required remote tools, relay writability, source path existence, and local folder writability before transfer. Use `--preflight-only` to run those checks without transferring.
 
-Use `--cleanup-vps-copy` only when the user explicitly asks to remove the VPS relay copy after the local download succeeds.
+Use `--cleanup-vps-copy` only when the user explicitly asks to remove the VPS relay copy after the local download succeeds. Set `cleanup_vps_copy: true` on a route when the user wants that route to clean rsync-style VPS relay copies after successful downloads by default.
 
 ## Transfer Topology
 
